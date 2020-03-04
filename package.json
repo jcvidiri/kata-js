@@ -3,11 +3,11 @@
   "author": "Juan Cruz Vidiri <jcvidiri@gmail.com>",
   "scripts": {
     "build": "make build",
-    "build-no-make": "rm -rf ./build; mkdir -p ./build; babel ./src -s -D -d ./build",
+    "build-no-make": "babel ./src -s -D -d ./build",
     "start": "npm run build && make start",
-    "start-no-make": "npm run build && node ./build/index.js",
+    "start-no-make": "npm run build-no-make && node ./build/index.js",
     "test": "make test",
-    "test-no-make": "mocha --require babel-register './tests/*.spec.js'"
+    "test-no-make": "mocha --require babel-register ./tests/test.spec.js"
   },
   "devDependencies": {
     "babel-cli": "6.5.1",

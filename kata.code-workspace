@@ -11,7 +11,6 @@
     "auto-rename-tag.activationOnLanguage": [
       "html"
     ],
-    "prettier.stylelintIntegration": false,
     "path-intellisense.absolutePathToWorkspace": true,
     "path-intellisense.extensionOnImport": false,
     "npm-intellisense.importDeclarationType": "const",
@@ -31,10 +30,6 @@
     "prettier.useTabs": false,
     "files.associations": {
       "*.js": "javascript"
-    },
-    "files.exclude": {
-      "**/*.js": true,
-      "**/*.js.map": true
     },
     "javascript.validate.enable": false,
     "javascript.format.enable": false,
