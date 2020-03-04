@@ -1,0 +1,17 @@
+# Logs
+*.log
+
+# Dependency directories
+node_modules
+
+# dotenv environment variables file
+.env
+npm-debug.log
+.idea
+src/**/*.js
+src/**/*.map
+tests/*.map
+tests/*.js
+
+# build
+build/

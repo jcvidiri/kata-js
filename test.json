@@ -1,0 +1,47 @@
+[
+  {
+    "brandName": "Brand 1",
+    "models": [
+      {
+        "name": "Model 11",
+        "engine": "Engine 11",
+        "transmission": "manual"
+      },
+      {
+        "name": "Model 12",
+        "engine": "Engine 12",
+        "transmission": "automatic"
+      }
+    ]
+  },
+  {
+    "brandName": "Brand 2",
+    "models": [
+      {
+        "name": "Model 21",
+        "engine": "Engine 1",
+        "transmission": "manual"
+      },
+      {
+        "name": "Model 22",
+        "engine": "Engine 22",
+        "transmission": "automatic"
+      }
+    ]
+  },
+  {
+    "brandName": "Brand 3",
+    "models": [
+      {
+        "name": "Model 31",
+        "engine": "Engine 31",
+        "transmission": "manual"
+      },
+      {
+        "name": "Model 32",
+        "engine": "Engine 32",
+        "transmission": "automatic"
+      }
+    ]
+  }
+]
