@@ -8,10 +8,6 @@ node_modules
 .env
 npm-debug.log
 .idea
-src/**/*.js
-src/**/*.map
-tests/*.map
-tests/*.js
 
 # build
 build/
